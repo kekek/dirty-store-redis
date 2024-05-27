@@ -1,6 +1,6 @@
-# Golang Dirty Filter 
+# redis store 
 
-redis store 
+golang 敏感词过滤库 github.com/antlinker/go-dirtyfilter store 的redis实现
 
 > 支持底层存储按key前缀分组，实现不同的过滤实例
 
@@ -10,8 +10,8 @@ redis store
 
 > 基于DFA算法；
 > 支持动态修改敏感词，同时支持特殊字符的筛选；
-> 敏感词的存储支持内存存储及MongoDB存储。
-> 敏感词redis 存储
+> 敏感词的存储支持内存存储及MongoDB存储；
+> 敏感词redis 存储。
 
 ## 获取
 
